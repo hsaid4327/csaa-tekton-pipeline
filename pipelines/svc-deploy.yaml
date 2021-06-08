@@ -35,17 +35,5 @@ spec:
           - name: source
             resource: appSource
       params:
-        - name: ARGS
-          value:
-            - "delete"      
-            - "deployment/greeter"
-        - name: ARGS
-          value:
-            - "apply"
-            - "-f"
-            - "/workspace/source/k8s/deployment.yaml"
-            - "-f"
-            - "/workspace/source/k8s/service.yaml"
-            - "-f"
-            - "/workspace/source/k8s/route.yaml"
-            
+        - name: SCRIPT
+          value: "oc delete deployment/greeter; oc apply -f /workspace/source/k8s/deployment.yaml;oc apply -f /workspace/source/k8s/service.yaml;oc apply -f /workspace/source/k8s/route.yaml"
