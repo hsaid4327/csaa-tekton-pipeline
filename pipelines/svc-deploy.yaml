@@ -37,6 +37,9 @@ spec:
       params:
         - name: ARGS
           value:
+            - "delete deployment/greeter"      
+        - name: ARGS
+          value:
             - "apply"
             - "-f"
             - "/workspace/source/k8s/deployment.yaml"
@@ -44,3 +47,4 @@ spec:
             - "/workspace/source/k8s/service.yaml"
             - "-f"
             - "/workspace/source/k8s/route.yaml"
+            
