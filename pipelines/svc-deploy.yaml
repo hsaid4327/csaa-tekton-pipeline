@@ -37,7 +37,8 @@ spec:
       params:
         - name: ARGS
           value:
-            - "delete deployment/greeter"      
+            - "delete"      
+            - "deployment/greeter"
         - name: ARGS
           value:
             - "apply"
