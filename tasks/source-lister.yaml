@@ -7,7 +7,7 @@ spec:
   params:
     - name: contextDir
       description: "The context directory within the repository for sources"
-      default: quarkus
+      default: springboot
   resources:
     inputs:
       - name: source
