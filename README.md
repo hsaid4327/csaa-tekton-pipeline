@@ -60,24 +60,24 @@ You can also run the pipeline from OCP ui by selecting the Project in developer 
 
 # Links
 
---- Installation of tkn cli
+* Installation of tkn cli
 https://github.com/tektoncd/cli#installing-tkn
 
 
--- Documentation
+* Documentation
 https://github.com/tektoncd/pipeline/tree/main/docs#learn-more
 
---- pipeline resources documentation
+* pipeline resources documentation
 https://github.com/tektoncd/pipeline/blob/main/docs/resources.md#resource-types
 
----tekton reference
+* tekton reference
 https://tekton.dev/docs/pipelines/taskruns/
 
 
----- openshift 4.7 pipeline docs
+* openshift 4.7 pipeline docs
 https://docs.openshift.com/container-platform/4.7/cicd/pipelines/creating-applications-with-cicd-pipelines.html
 
---- Tutorial:
+* Tutorial
 https://github.com/openshift/pipelines-tutorial/
 https://redhat-scholars.github.io/tekton-tutorial/tekton-tutorial/tasks.html
 https://developers.redhat.com/blog/2021/01/13/getting-started-with-tekton-and-pipelines#run_in_parallel_or_sequentially
